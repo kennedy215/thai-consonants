@@ -1,0 +1,73 @@
+.container {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.header {
+  background-color: red;
+  height: 200px;
+}
+
+.nav {
+  background-color: yellow;
+  height: 150px;
+}
+
+.main {
+  background-color: blue;
+  height: auto;
+}
+
+.section {
+  background-color: orange;
+  height: auto;
+}
+
+.footer {
+  background-color: green;
+  height: auto;
+}
+.characters-thai {
+  padding: 40px;
+  text-align: center;
+}
+.characters-english {
+  padding: 40px;
+  text-align: center;
+  position: relative;
+  z-index: 0;
+}
+/*Tone Colors */
+.low-tone {
+  background-color: blue;
+  width: 150px;
+  height: 150px;
+  z-index: 2;
+}
+.mid-tone {
+  background-color: yellow;
+  width: 150px;
+  height: 150px;
+  z-index: 2;
+}
+.high-tone {
+  background-color: red;
+  width: 150px;
+  height: 150px;
+  z-index: 2;
+}
+/*Consonant boxes*/
+.consonants {
+  /*background-color: white;*/
+  width: 150px;
+  height: 150px;
+  z-index: 5;
+  border: black solid;
+}
+.box-center {
+  padding:50px;
+  text-align: center;
+}
