@@ -17,12 +17,12 @@
 }
 
 .main {
-  background-color: blue;
+  background-color: #DEF2F1;
   height: auto;
 }
 
 .section {
-  background-color: orange;
+  background-color: #3AAFA9;
   height: auto;
 }
 
@@ -42,19 +42,22 @@
 }
 /*Tone Colors */
 .low-tone {
-  background-color: blue;
+  background-color: #17252A;
+  color: #FEFFFF;
   width: 150px;
   height: 150px;
   z-index: 2;
 }
 .mid-tone {
-  background-color: yellow;
+  background-color: #2B7A78;
+  color: #FEFFFF;
   width: 150px;
   height: 150px;
   z-index: 2;
 }
 .high-tone {
-  background-color: red;
+  background-color: #3AAFA9;
+  color: #FEFFFF;
   width: 150px;
   height: 150px;
   z-index: 2;
@@ -73,4 +76,8 @@
 }
 .consonants-section {
   width: 100%;
+}
+
+.chicken {
+  background-image: url("paper.gif");
 }
