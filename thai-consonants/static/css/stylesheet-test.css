@@ -1,0 +1,43 @@
+.header {
+    position: relative;
+    border: 3px solid orange;
+    width: 100%;
+    display: -webkit-flex;
+    display: flex;
+    z-index: 0;
+}
+.header {
+    position: relative;
+    border: 3px solid red;
+    width: 100%;
+    display: -webkit-flex;
+    display: flex;
+    z-index: 0;
+}
+
+.headerLeft {
+    border: 2px solid chartreuse;
+    -webkit-flex: 1;
+    flex: 1;
+    z-index: 1;
+}
+.headerMiddle {
+    border: 2px solid darkorchid;
+    -webkit-flex: 1;
+    flex: 1;
+    z-index: 1;
+}
+.headerRight {
+    border: 2px solid darkorange;
+    -webkit-flex: 1;
+    flex: 1;
+    z-index: 1;
+}
+
+.overlay {
+    border: 2px solid green;
+    z-index: 10;
+    background: rgba(0,0,0,0.3);
+    position: absolute;
+    left: 0; top: 0; right: 0; bottom: 0;
+}
