@@ -1,10 +1,12 @@
+# -*- coding: utf-8 -*-
+
 #This setup is great for a database that intergrates the other database
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
 import os
 import sys
 
-from database_list import Base,Tones
+from database_list import Base,lowConsonants
 
 # detecting Thai language format
 # from language_detect import detect
@@ -22,13 +24,13 @@ session =DBSession()
 # Information to be intergrated
 
 #Chicken
-chicken = Consonants(name="Chicken",thai_consonant="joombie",thai_spelling="joom",sound="k/k")
-chicken_real = chicken
-session.add(chicken)
+chicken = lowConsonants(name="Chicken",thai_consonant="ก",thai_spelling="x",sound="k/k")
 
+
+session.add(chicken)
 session.commit()
 
-toneMid = Tones(name="Mid")
+# toneMid = Tones(name="Mid")
 
 
 
